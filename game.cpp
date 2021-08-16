@@ -12,7 +12,7 @@ class player {
         m=name;
     }
     string setname(){
-        if(name.length()>3 &&name.length()<14 ){
+        if(name.length()>3 && name.length()<14 ){
             return name;
         }
         else  {
@@ -62,6 +62,11 @@ class player {
     }
 
 };
+
+
+///////////////////////////////////////////////
+
+
 int main(){
     player monster;
     cout << "enter your name";
