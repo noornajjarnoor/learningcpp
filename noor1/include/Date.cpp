@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 class Date{
     private:
@@ -5,9 +6,11 @@ class Date{
     int m_month;
     int m_year;
     public:
-    Date(int day , int month, int year);
-    int copy(int & );
-    day.copy(Date::day);
+    Date(int day , int month, int year){
+    m_day=day;
+    m_month=month;
+    m_year=year;
+    }
     void setday(int day){
         if(m_day =0){
             exit(EXIT_FAILURE);

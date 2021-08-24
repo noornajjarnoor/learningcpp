@@ -1,9 +1,8 @@
-#include "Date.h"
-#include "Student.h"
-#include "Classroom.h"
+#include "..\include\Date.h"
+#include "..\include\Student.h"
+#include "..\include\Classroom.h"
 #include <iostream>
 #include <string>
-
 int main() {
     constexpr int grades_size = 3;
     
