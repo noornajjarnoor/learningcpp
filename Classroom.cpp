@@ -5,6 +5,9 @@ class Classroom{
     private:
     Student arr[5];
     int n=0;
+
+
+    
     //int arrsize=5;
     //int arr10[5];
     int a=0;
